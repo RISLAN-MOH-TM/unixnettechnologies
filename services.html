@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | UNIX-NET</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Three.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+</head>
+
+
+<body>
+
+    <!-- 3D Background Container -->
+    <div id="canvas-container"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/navbar-logo.png" alt="UNIX-NET Logo">
+            </a>
+            <div class="hamburger" id="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="hero" style="height: 60vh;">
+        <div class="hero-content">
+            <h1>Our <span class="text-gradient">Services</span></h1>
+            <p>Comprehensive digital solutions tailored for your success.</p>
+        </div>
+    </header>
+
+    <!-- Detailed Services -->
+    <section class="services-preview container" style="padding-top: 50px;">
+
+        <!-- Video Editing -->
+        <div class="service-detail-block"
+            style="display: flex; align-items: center; gap: 50px; margin-bottom: 100px; flex-wrap: wrap;">
+            <div style="flex: 1; min-width: 300px;">
+                <h2 style="font-size: 32px; margin-bottom: 20px;">Video <span class="text-gradient">Editing</span></h2>
+                <p style="color: rgba(255,255,255,0.8); margin-bottom: 20px;">
+                    Transform your raw footage into cinematic masterpieces. We specialize in storytelling through
+                    editing, advanced visual effects (VFX), color grading, and sound design. Whether it's for YouTube,
+                    commercials, or short films, we deliver industry-standard quality.
+                </p>
+                <ul style="list-style: none; color: rgba(255,255,255,0.7); margin-bottom: 30px;">
+                    <li style="margin-bottom: 10px;"><i class="fas fa-check"
+                            style="color: var(--accent-cyan); margin-right: 10px;"></i> Commercials & Ads</li>
+                    <li style="margin-bottom: 10px;"><i class="fas fa-check"
+                            style="color: var(--accent-cyan); margin-right: 10px;"></i> YouTube Content</li>
+                    <li style="margin-bottom: 10px;"><i class="fas fa-check"
+                            style="color: var(--accent-cyan); margin-right: 10px;"></i> Color Grading & Correction</li>
+                </ul>
+                <a href="contact.html" class="btn">Order Now</a>
+            </div>
+            <div style="flex: 1; min-width: 300px;">
+                <img src="images/service-video.jpg" alt="Video Editing"
+                    style="width: 100%; border-radius: 8px; box-shadow: 0 0 20px rgba(0, 247, 255, 0.2);">
+            </div>
+        </div>
+
+        <!-- Web Development -->
+        <div class="service-detail-block"
+            style="display: flex; align-items: center; gap: 50px; margin-bottom: 100px; flex-wrap: wrap-reverse;">
+            <div style="flex: 1; min-width: 300px;">
+                <img src="images/service-web.jpg" alt="Web Development"
+                    style="width: 100%; border-radius: 8px; box-shadow: 0 0 20px rgba(188, 19, 254, 0.2);">
+            </div>
+            <div style="flex: 1; min-width: 300px;">
+                <h2 style="font-size: 32px; margin-bottom: 20px;">Web <span class="text-gradient">Development</span>
+                </h2>
+                <p style="color: rgba(255,255,255,0.8); margin-bottom: 20px;">
+                    We build lightning-fast, responsive, and SEO-optimized websites. From simple landing pages to
+                    complex web applications, our code is clean, modern, and scalable. We use the latest technologies to
+                    ensure your digital presence is future-proof.
+                </p>
+                <ul style="list-style: none; color: rgba(255,255,255,0.7); margin-bottom: 30px;">
+                    <li style="margin-bottom: 10px;"><i class="fas fa-check"
+                            style="color: var(--accent-purple); margin-right: 10px;"></i> Custom Website Design</li>
+                    <li style="margin-bottom: 10px;"><i class="fas fa-check"
+                            style="color: var(--accent-purple); margin-right: 10px;"></i> E-commerce Solutions</li>
+                    <li style="margin-bottom: 10px;"><i class="fas fa-check"
+                            style="color: var(--accent-purple); margin-right: 10px;"></i> SEO Optimization</li>
+                </ul>
+                <a href="contact.html" class="btn">Build Your Site</a>
+            </div>
+        </div>
+
+        <!-- Social Media -->
+        <div class="service-detail-block"
+            style="display: flex; align-items: center; gap: 50px; margin-bottom: 100px; flex-wrap: wrap;">
+            <div style="flex: 1; min-width: 300px;">
+                <h2 style="font-size: 32px; margin-bottom: 20px;">Social Media <span
+                        class="text-gradient">Handling</span></h2>
+                <p style="color: rgba(255,255,255,0.8); margin-bottom: 20px;">
+                    Grow your brand with data-driven social media strategies. We manage your profiles, create engaging
+                    content, and analyze performance to maximize reach and conversion.
+                </p>
+                <ul style="list-style: none; color: rgba(255,255,255,0.7); margin-bottom: 30px;">
+                    <li style="margin-bottom: 10px;"><i class="fas fa-check"
+                            style="color: var(--accent-cyan); margin-right: 10px;"></i> Content Creation</li>
+                    <li style="margin-bottom: 10px;"><i class="fas fa-check"
+                            style="color: var(--accent-cyan); margin-right: 10px;"></i> Profile Management</li>
+                    <li style="margin-bottom: 10px;"><i class="fas fa-check"
+                            style="color: var(--accent-cyan); margin-right: 10px;"></i> Analytics & Reporting</li>
+                </ul>
+                <a href="contact.html" class="btn">Grow Audience</a>
+            </div>
+            <div style="flex: 1; min-width: 300px;">
+                <img src="images/service-social.jpg" alt="Social Media"
+                    style="width: 100%; border-radius: 8px; box-shadow: 0 0 20px rgba(0, 247, 255, 0.2);">
+            </div>
+        </div>
+
+        <!-- Graphic Design -->
+        <div class="service-detail-block"
+            style="display: flex; align-items: center; gap: 50px; margin-bottom: 100px; flex-wrap: wrap-reverse;">
+            <div style="flex: 1; min-width: 300px;">
+                <img src="images/service-graphics.jpg" alt="Graphic Design"
+                    style="width: 100%; border-radius: 8px; box-shadow: 0 0 20px rgba(188, 19, 254, 0.2);">
+            </div>
+            <div style="flex: 1; min-width: 300px;">
+                <h2 style="font-size: 32px; margin-bottom: 20px;">Graphic <span class="text-gradient">Design</span></h2>
+                <p style="color: rgba(255,255,255,0.8); margin-bottom: 20px;">
+                    Visuals that speak louder than words. Our creative team designs logos, branding materials,
+                    brochures, and digital assets that capture the essence of your brand and resonate with your
+                    audience.
+                </p>
+                <ul style="list-style: none; color: rgba(255,255,255,0.7); margin-bottom: 30px;">
+                    <li style="margin-bottom: 10px;"><i class="fas fa-check"
+                            style="color: var(--accent-purple); margin-right: 10px;"></i> Logo Design</li>
+                    <li style="margin-bottom: 10px;"><i class="fas fa-check"
+                            style="color: var(--accent-purple); margin-right: 10px;"></i> Branding Kits</li>
+                    <li style="margin-bottom: 10px;"><i class="fas fa-check"
+                            style="color: var(--accent-purple); margin-right: 10px;"></i> Marketing Materials</li>
+                </ul>
+                <a href="contact.html" class="btn">Get Designs</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/1A3j7VVfAt/"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2026 UNIX-NET. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/3d-bg.js"></script>
+</body>
+
+</html>

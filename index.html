@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIX-NET | Digital Services</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="description"
+        content="Premium Video Editing, Graphic Design, Web Development, and Social Media Services.">
+    <!-- Three.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.net.min.js"></script>
+    <!-- I will use pure Three.js instead of Vanta for more control, but keeping the CDN reference just in case is not needed if I write raw three.js code. I'll stick to raw Three.js for "html css js only" spirit. -->
+</head>
+
+<body>
+
+    <!-- 3D Background Container -->
+    <div id="canvas-container"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/navbar-logo.png" alt="UNIX-NET Logo">
+                
+            </a>
+            <div class="hamburger" id="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>We Forge <br><span class="text-gradient">Digital Reality</span></h1>
+            <p>Your vision, amplified. From high-end graphics to seamless web experiences and cinematic video editing.
+            </p>
+            <a href="contact.html" class="btn">Start Project</a>
+        </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="services-preview container">
+        <h2 class="section-title">Our <span class="text-gradient">Expertise</span></h2>
+        <div class="services-grid">
+            <!-- Service 1 -->
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-video"></i></div>
+                <h3>Video Editing</h3>
+                <p>Cinematic cuts, VFX, and color grading that tell a compelling story.</p>
+                <img src="images/service-video.jpg" alt="Video Editing">
+                <a href="services.html"
+                    style="margin-top: 15px; display: inline-block; font-size: 13px; color: var(--accent-cyan);">Learn
+                    More <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-code"></i></div>
+                <h3>Web Development</h3>
+                <p>Responsive, fast, and futuristic websites built for growth.</p>
+                <img src="images/service-web.jpg" alt="Web Development">
+                <a href="services.html"
+                    style="margin-top: 15px; display: inline-block; font-size: 13px; color: var(--accent-cyan);">Learn
+                    More <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+                <h3>Graphic Design</h3>
+                <p>Brand identity, logos, and visuals that leave a lasting mark.</p>
+                <img src="images/service-graphics.jpg" alt="Graphic Design">
+                <a href="services.html"
+                    style="margin-top: 15px; display: inline-block; font-size: 13px; color: var(--accent-cyan);">Learn
+                    More <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-share-nodes"></i></div>
+                <h3>Social Media</h3>
+                <p>Strategic management to grow your audience and engagement.</p>
+                <img src="images/service-social.jpg" alt="Social Media">
+                <a href="services.html"
+                    style="margin-top: 15px; display: inline-block; font-size: 13px; color: var(--accent-cyan);">Learn
+                    More <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose">
+        <div class="container">
+            <h2 class="section-title">Why <span class="text-gradient">UNIX-NET?</span></h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Client Satisfaction</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Support</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to <span class="text-gradient">Level Up?</span></h2>
+            <p style="margin-bottom: 30px; font-size: 18px; color: rgba(255,255,255,0.7);">Let's discuss how we can
+                bring your ideas to life.</p>
+            <a href="contact.html" class="btn">Get a Quote</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2026 UNIX-NET. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/3d-bg.js"></script>
+</body>
+
+</html>
